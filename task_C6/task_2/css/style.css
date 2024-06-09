@@ -1,0 +1,21 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 98vw;
+	height: 97vh;
+}
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	width: 180px;
+	height: 70px;
+	padding: 15px;
+	background-color: rgb(36, 120, 199);
+}
+.btn_text,
+.btn_icon {
+	margin: 15px;
+}

@@ -1,0 +1,72 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.chat_block,
+.message-output-field {
+	border: 3px solid rgba(0, 113, 240, 0.5);
+	border-radius: 5px;
+	padding: 5px;
+	width: 530px;
+}
+.message-output-field {
+	width: 514px;
+	height: 200px;
+	overflow: auto;
+}
+.btn-send-message,
+.btn-send-geolocation {
+	margin-left: 2px;
+	font-family: sans-serif;
+	font-size: 16px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+	background-color: rgba(0, 113, 240);
+	outline: none;
+	cursor: pointer;
+}
+.user_block {
+	margin: 10px auto 20px auto;
+
+	border: 1px rgba(0, 113, 240);
+}
+.user-input-field {
+	width: 43%;
+	padding: 10px 20px;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	border-color: rgba(0, 113, 240);
+}
+
+.form_button:focus,
+.form_button:hover {
+	background-color: rgba(0, 113, 240);
+}
+
+.server-message {
+	display: flex;
+	justify-content: start;
+	margin-left: 15px;
+}
+
+.user-message {
+	display: flex;
+	justify-content: end;
+	margin-right: 15px;
+}
+span,
+a {
+	border: 2px solid rgba(0, 113, 240);
+	border-radius: 5px;
+	padding: 10px;
+}
+a {
+	text-decoration: none;
+}
